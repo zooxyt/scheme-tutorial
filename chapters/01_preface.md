@@ -23,8 +23,25 @@ The tutorial is about programming for absolute beginners, with
 a programming language named "Scheme".
 
 
-LISP?
------
+Specification
+-------------
+
+The latest fully (at the time of this tutorial been written) 
+published specification of Scheme Programming Language could be 
+R6RS, which is short for 
+**The Revised<sup>6</sup> Report on the Algorithmic Langauge**
+and could be viewed at: 
+http://www.r6rs.org/ 
+
+The specification contains 4 parts including Libraries and so on, 
+makes Scheme bias the original simple design, 
+so the tutorial covers a previous version, 
+R5RS and could be downloaded at:
+http://www.schemers.org/Documents/Standards/R5RS/
+The document is pretty short, only contains 50 pages 
+(as a specification of a programming language
+ compares to other programming languages 
+ such as C++ which contains more than 1000 pages).
 
 
 
