@@ -38,6 +38,7 @@ makes Scheme bias the original simple design,
 so the tutorial covers a previous version, 
 R5RS and could be downloaded at:
 http://www.schemers.org/Documents/Standards/R5RS/
+
 The document is pretty short, only contains 50 pages 
 (as a specification of a programming language
  compares to other programming languages 
