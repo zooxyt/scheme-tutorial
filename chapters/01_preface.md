@@ -51,7 +51,7 @@ Lisp?
 You may already known a bit Scheme before or just have read the 
 specification mentioned above, and seen tons of parenthesis which
 is probably the most famous characteristic of a series of programming 
-languages with name of `Lisp', (Lisp has also been called `Lost In Stupid Parentheses`).
+languages with name of `Lisp`, (Lisp has also been called `Lost In Stupid Parentheses`).
 
 The original design of the language was not looks like the modern looking,
 just been `stopped` at the step like this by accident, but
@@ -66,4 +66,57 @@ Some people says, the grammer of lisp can be written in only one line:
 ```
 '(' list ')'
 ```
+
+
+Dialects
+--------
+
+Because of the fact that Lisp only started the style of list with 
+parentheses brace around, many people and organizations try to define
+what kind of syntax looks like, how many data types have, or how does
+the program runs and they create their own copy of Lisp that doen't 
+completely like the original Lisp, these derived version of Lisp also
+derives new versions of Lisp, so we call these derived versions of Lisp
+`dialects`. Scheme is one of these dialects of Lisp.
+
+
+Benefits
+--------
+
+Learning a new thing takes time, "why do I have to spend my time on
+learning a new programming language instead of playing games or
+drinking some beer with friends?" Or say, "What do I get from learning
+this" may be a frequency asked question.
+
+I personally think we don't have to get something from the progress of
+learning, learning itself is interesting, but some reasons can be told
+to motivate you.
+
+Different person gets different things, it might be impossible to tell
+what you will get explicitly.
+
+For a newbie who begins his trip to the world of programming, Scheme is 
+a good start point, it contains less details that requires to know the
+computer architectures that have to be deal with in some low-level 
+programming language and let coders focus on solving the real world 
+problems, and feeling the fun of coding.
+
+For an experienced programmer who has never use Lisp-like things, 
+Scheme'll provides new thinking ways that inspire better code. 
+As a rather simple programming language, it could also be used as a script
+languages that extends the function dynamicly 
+(Like JavaScript in Web browsers).
+
+For a programming language fun and geek, Scheme provides a cool playground
+for testing new features without wasting abundant time on writing a 
+parser.
+
+
+How To Read The Tutorial
+------------------------
+
+The best way to learn a programming language is to use it. 
+Put your hands on the keyboard and type the code with fingers, do not
+copy and paste. Run the code, debug it step by step and think about
+how it works.
 
