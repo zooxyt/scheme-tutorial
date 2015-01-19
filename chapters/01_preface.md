@@ -45,4 +45,25 @@ The document is pretty short, only contains 50 pages
  such as C++ which contains more than 1000 pages).
 
 
+Lisp?
+-----
+
+You may already known a bit Scheme before or just have read the 
+specification mentioned above, and seen tons of parenthesis which
+is probably the most famous characteristic of a series of programming 
+languages with name of `Lisp', (Lisp has also been called `Lost In Stupid Parentheses`).
+
+The original design of the language was not looks like the modern looking,
+just been `stopped` at the step like this by accident, but
+lack of a complete parser which widely exists 
+in many other high-level languages isn't that bad 
+because the parentheses style of language 
+not only makes the code of program looks consists and clean 
+but also enables programmers easy to do convertion between code and data
+and have much more freedom to do things looks difficult in normal 
+programming languages.
+Some people says, the grammer of lisp can be written in only one line:
+```
+'(' list ')'
+```
 
