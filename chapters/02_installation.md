@@ -10,4 +10,54 @@ There are abundant of implementations of Scheme, each one of them has
 its own characteristic and optimized for special purpose. 
 For the purpose of learning, the most recommended one is Racket.
 
+Racket is an general purpose programming language based on the Scheme Lisp,
+It provides not only a collection of Scheme-class programming languages
+but also a powerful and friendly intergrated development environment.
+
+Racket is a cross-platform software that runs on common operating systems
+including Windows, OSX, Linux.
+
+
+Linux
+-----
+
+For Linux users, there are two possible way to install Racket on your
+computer.
+
+The first is to use the package management system shipped with
+your distribution. For example, Debian/Ubuntu Linux use a package system
+named APT, the apt command could be use to install a new software.
+For installing Racket, execute the following command in the terminal as
+super user;
+```
+# apt-get install racket
+```
+
+The other is to download the source code which could be found at:
+http://download.racket-lang.org/
+
+Choose the 'Unix Source' option from the combo box and click on the 
+download button.
+
+After the downloading finished, move the compressed source code file to 
+a temporary directly, such as `/opt/`, the name of downloaded file at the
+time of this tutorial been written is `racket-6.1.1-src.tgz`, so
+we execute the following commmands:
+```
+# cd ~/Downloads # Enter the download directory
+# mv racket-6.1.1-src.tgz /opt/  # Move the file into the temporary directly
+# cd /opt/ # Jump to `/opt/'
+# tar xzvf racket-6.1.1-src.tgz # Decompress the compressed source code file
+# cd racket-6.1.1/src # Enter the source code directory
+# ./configure # Generate the Makefile
+# make # Build the source code of Racket
+# make install # Install Racket
+``` 
+
+If the steps above been successfully executed, 
+racket is already been put in the default executable file searching path.
+
+
+Windows
+-------
 
