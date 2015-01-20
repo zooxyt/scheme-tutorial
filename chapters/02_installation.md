@@ -12,7 +12,7 @@ For the purpose of learning, the most recommended one is Racket.
 
 Racket is an general purpose programming language based on the Scheme Lisp,
 It provides not only a collection of Scheme-class programming languages
-but also a powerful and friendly intergrated development environment.
+but also a powerful and friendly integrated development environment.
 
 Racket is a cross-platform software that runs on common operating systems
 including Windows, OSX, Linux.
@@ -42,7 +42,7 @@ download button.
 After the downloading finished, move the compressed source code file to 
 a temporary directly, such as `/opt/`, the name of downloaded file at the
 time of this tutorial been written is `racket-6.1.1-src.tgz`, so
-we execute the following commmands:
+we execute the following commands:
 ```
 # cd ~/Downloads # Enter the download directory
 # mv racket-6.1.1-src.tgz /opt/  # Move the file into the temporary directly
