@@ -8,6 +8,7 @@ Completed Chapters
 ------------------
 1. Preface
 
-Constructing
+Constructing Chapters
+---------------------
 2. Installation
 
