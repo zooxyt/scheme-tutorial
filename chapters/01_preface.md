@@ -48,7 +48,7 @@ The document is pretty short, only contains 50 pages
 Lisp?
 -----
 
-You may already known a bit Scheme before or just have read the 
+You may already know a bit Scheme before or just have read the 
 specification mentioned above, and seen tons of parenthesis which
 is probably the most famous characteristic of a series of programming 
 languages with name of `Lisp`, (Lisp has also been called `Lost In Stupid Parentheses`).
@@ -59,10 +59,10 @@ lack of a complete parser which widely exists
 in many other high-level languages isn't that bad 
 because the parentheses style of language 
 not only makes the code of program looks consists and clean 
-but also enables programmers easy to do convertion between code and data
+but also enables programmers easy to do conversion between code and data
 and have much more freedom to do things looks difficult in normal 
 programming languages.
-Some people says, the grammer of lisp can be written in only one line:
+Some people says, the grammar of lisp can be written in only one line:
 ```
 '(' list ')'
 ```
@@ -74,7 +74,7 @@ Dialects
 Because of the fact that Lisp only started the style of list with 
 parentheses brace around, many people and organizations try to define
 what kind of syntax looks like, how many data types have, or how does
-the program runs and they create their own copy of Lisp that doen't 
+the program runs and they create their own copy of Lisp that doesn't 
 completely like the original Lisp, these derived version of Lisp also
 derives new versions of Lisp, so we call these derived versions of Lisp
 `dialects`. Scheme is one of these dialects of Lisp.
@@ -102,9 +102,9 @@ programming language and let coders focus on solving the real world
 problems, and feeling the fun of coding.
 
 For an experienced programmer who has never use Lisp-like things, 
-Scheme'll provides new thinking ways that inspire better code. 
+Scheme will provides new thinking ways that inspire better code. 
 As a rather simple programming language, it could also be used as a script
-languages that extends the function dynamicly 
+languages that extends the function dynamically 
 (Like JavaScript in Web browsers).
 
 For a programming language fun and geek, Scheme provides a cool playground
