@@ -6,5 +6,8 @@ Scheme programming languages.
 
 Completed Chapters
 ------------------
+1. Preface
 
+Constructing
+2. Installation
 
