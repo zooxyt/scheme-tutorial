@@ -10,7 +10,7 @@ There are abundant of implementations of Scheme, each one of them has
 its own characteristic and optimized for special purpose. 
 For the purpose of learning, the most recommended one is Racket.
 
-Racket is an general purpose programming language based on the Scheme Lisp,
+Racket is a general purpose programming language based on the Scheme Lisp,
 It provides not only a collection of Scheme-class programming languages
 but also a powerful and friendly integrated development environment.
 
@@ -62,8 +62,8 @@ we execute the following commands:
 # make install # Install Racket
 ``` 
 
-The compiling costs rather long time that is because the progress doen't
-only compile the Racket itself but also the modules with riched functions.
+The compiling costs rather long time that is because the progress doesn't
+only compile the Racket itself but also the modules with rich functions.
 
 If the steps above been successfully executed, 
 racket is already been put in the default executable file searching path.
@@ -77,7 +77,7 @@ http://download.racket-lang.org/
 
 Choose either x64 or x86 version depends on the system you are using, then 
 download it directly or from a mirror server at your option. 
-The downloaded file should be something similiar to `racket-6.1.1-x86-win32.exe` or `racket-6.1.1-i386-win32.exe`
+The downloaded file should be something similar to `racket-6.1.1-x86-win32.exe` or `racket-6.1.1-i386-win32.exe`
 
 Double click on the downloaded file, follow the steps to specify the 
 path which Racket's going to be installed.
