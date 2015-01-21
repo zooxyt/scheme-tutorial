@@ -72,4 +72,14 @@ racket is already been put in the default executable file searching path.
 Windows
 -------
 
+The best way for Windows users to install Racket is to download the installation program which could be found at:
+http://download.racket-lang.org/
+
+Choose either x64 or x86 version depends on the system you are using, then 
+download it directly or from a mirror server at your option. 
+The downloaded file should be something similiar to `racket-6.1.1-x86-win32.exe` or `racket-6.1.1-i386-win32.exe`
+
+Double click on the downloaded file, follow the steps to specify the 
+path which Racket's going to be installed.
+
 
