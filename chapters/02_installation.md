@@ -83,3 +83,11 @@ Double click on the downloaded file, follow the steps to specify the
 path which Racket's going to be installed.
 
 
+Usage
+-----
+
+The installed Racket actually has at least 2 program launcher, one
+is named `racket` that executes racket programs directly, the other
+one is `drracket` which provides a full-featured IDE 
+(Integrated Development Environment).
+
