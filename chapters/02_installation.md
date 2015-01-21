@@ -33,7 +33,14 @@ super user;
 # apt-get install racket
 ```
 
-The other is to download the source code which could be found at:
+The other way is to install by compiling the source of Racket.
+Because the Racket is written in C programming language, so 
+we have to preinstall the build toolchain before compiling:
+```
+# apt-get install build-essential
+```
+
+download the source code which could be found at:
 http://download.racket-lang.org/
 
 Choose the 'Unix Source' option from the combo box and click on the 
@@ -43,6 +50,7 @@ After the downloading finished, move the compressed source code file to
 a temporary directly, such as `/opt/`, the name of downloaded file at the
 time of this tutorial been written is `racket-6.1.1-src.tgz`, so
 we execute the following commands:
+
 ```
 # cd ~/Downloads # Enter the download directory
 # mv racket-6.1.1-src.tgz /opt/  # Move the file into the temporary directly
@@ -54,10 +62,14 @@ we execute the following commands:
 # make install # Install Racket
 ``` 
 
+The compiling costs rather long time that is because the progress doen't
+only compile the Racket itself but also the modules with riched functions.
+
 If the steps above been successfully executed, 
 racket is already been put in the default executable file searching path.
 
 
 Windows
 -------
+
 
