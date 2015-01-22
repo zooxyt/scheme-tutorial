@@ -40,7 +40,7 @@ When the system get started, it provides you a blank environment called
 `initial environment`, then you pass `expressions` to the system for
 evaluation. The progress of evaluation includes parsing the expressions
 passed in which is only a string of characters into an tree-like 
-abstruct structure, and doing corresponding operations.
+abstract structure, and doing corresponding operations.
 
 Let's try passing some expressions to it. 
 The first one we are going to pass is:
@@ -52,7 +52,7 @@ We type the code into the REPL frame, and press Enter.
 
 It display the same message "Hello World" then. 
 The system read the characters we typed in, it 
-evaluates and print the result to us, this is the meaning of REPL. 
+evaluates and print the result to us, and this is the meaning of REPL. 
 At this time we just need to know, almost all the programs execute like 
 this.
 
