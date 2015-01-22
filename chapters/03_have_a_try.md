@@ -11,6 +11,6 @@ start screen.
 After the loading finished, 
 the main window of DrRacket should be displayed and looks similar to below.
 
-![DrRacket](img/drracket.jpg)
+![DrRacket](img/drracket.png)
 
 
