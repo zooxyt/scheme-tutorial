@@ -8,4 +8,5 @@ Completed Chapters
 ------------------
 1. Preface
 2. Installation
+3. Have a try
 

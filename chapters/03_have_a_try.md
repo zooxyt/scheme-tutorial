@@ -56,4 +56,7 @@ evaluates and print the result to us, this is the meaning of REPL.
 At this time we just need to know, almost all the programs execute like 
 this.
 
+It is also possible to write the code into the code editor and 
+click the `Run` button on the toolbar, the same result will be also printed
+in the REPL frame, because the expressions execute in the same way.
 
