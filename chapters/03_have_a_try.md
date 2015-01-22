@@ -15,7 +15,7 @@ DrRacket IDE
 After the loading finished, 
 the main window of DrRacket should be displayed and looks similar to below.
 
-![DrRacket](img/drracket.jpg)
+![DrRacket](img/drracket.png)
 
 If you don't accustomed to using English, 
 it is possible to choose another one from the Help menu item.
