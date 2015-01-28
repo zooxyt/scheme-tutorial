@@ -56,3 +56,16 @@ For people who needs to know how machines work with float-point numbers, check t
 [IEEE-754](http://en.wikipedia.org/wiki/IEEE_floating_point) standard.
 
 
+Strings
+-------
+
+The string data type has been mentioned before, but one more thing to take
+care is the `escaping`. You may have noticed, if all strings are 
+ surrounded by a pair of double quotes, how to represents a string with
+double quote character? The answer is to write the double quote with 
+an escaping char `\` before.
+```
+"A string with \" inside"
+```
+
+
