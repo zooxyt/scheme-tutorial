@@ -14,7 +14,7 @@ examples of other types.
 Integers
 --------
 
-Integers here are intergers in mathematics, 
+Integers here are integers in mathematics, 
 the following numbers are legal integers in Scheme:
 ```
 123
@@ -29,7 +29,8 @@ is that Scheme supports big integers, the following number is an example:
 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
 ```
 
-The number above is the exact value of `100!` and the only limit of the size
-of number is probably the memory of your computer.
+The number above is the exact value of `100!`, and 
+the only limit of the size of number is 
+probably the memory of your computer.
 
 
