@@ -49,13 +49,10 @@ We all know decimals that look like:
 ```
 
 In mathematics, it is able to represent a decimal number with has many
-digits after the decimal point such as 
-```
-0.12345678901234567890
-```
-due to the limit of hardware. The problem doen't only occurred on a decimal with high precision, for example, the result of sum of two decimals `0.1` and `0.2` is `0.30000000000000004` this is because the computer represents the numbers in binary format in the machine level, and there isn't a number `0.3`.
+digits after the decimal point such as `0.12345678901234567890`
+due to the limit of hardware. The problem doesn't only occurred on a decimal with high precision, for example, the result of sum of two decimals `0.1` and `0.2` is `0.30000000000000004` this is because the computer represents the numbers in binary format in the machine level, and there isn't a number `0.3`.
 
 For people who needs to know how machines work with float-point numbers, check the 
-(IEEE-754)[http://en.wikipedia.org/wiki/IEEE_floating_point] standard.
+[IEEE-754](http://en.wikipedia.org/wiki/IEEE_floating_point) standard.
 
 
