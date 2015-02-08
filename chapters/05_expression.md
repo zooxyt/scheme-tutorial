@@ -56,8 +56,13 @@ meaning which is named "prefix notation". In prefix notation, we write
 the operator `+` in the front of the expression instead of writing in the
 middle with a pair of parenthesis around:
 ```
-(+ 1 2)
+(+ 1 2) ; 3
 ```
+
+The `;` in the code means the text starts from ";" to the end of the line
+are "comments". Comments doens't do anything to your program, you just write
+anything you want in the comments to make you code easy to understand by 
+people.
 
 This looks a bit weird for people who never used Lisp before, but sometimes
 we benefit from writing in prefix notation. For example, we want to
@@ -73,9 +78,32 @@ The difference between the "+" function in Scheme and the `+` in mathematics
 is that the "+" function accepts arbitrary number of "arguments" instead of
 two. The following expressions are legal in Scheme:
 ```
-(+)
-(+ 1)
-(+ 1 2)
-(+ 1 2 3)
+(+)        ; 0
+(+ 1)      ; 1
+(+ 1 2)    ; 3
+(+ 1 2 3)  ; 6
+```
+
+The "+" function has an initial zero value for represent the sum of 
+all arguments. if no available argument, it evaluates to 0. 
+
+Let's take a look at another procedure "-". "-" function accepts at least one
+argument which means the following code:
+```
+(-)
+```
+is illegal.
+
+While applying on only one number, it evaluates to the negative number of the
+original numebr:
+```
+(- 123) ; -123
+```
+
+while applying on more than one numbers, it set the first number as the 
+"initial value" of the while process, and substract the initial value by the 
+remained numbers one by one.
+```
+(- 10 1 2 3) ; 4
 ```
 
