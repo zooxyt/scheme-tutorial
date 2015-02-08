@@ -16,17 +16,17 @@ examples given in the previous chapters. In the perspective of `Syntax`
 we say the source code are basically consists of `s-expression` which
 is short for "Symbolic Expression".
 
-An s-expression has two derieved forms:
+An s-expression has two derived forms:
 - Atom
 - Pair 
 
-Atoms is kind of somehow unsplittable thing in syntax, such 
+Atoms is kind of somehow inseparable thing in syntax, such 
 as the values of the basic types. Pairs are different, they consist of
 two parts, the "car" part and the "cdr" part and denotes 
 as `(<car> . <cdr>)`, the "car" and "cdr" parts themselves are 
 s-expressions.
 
-The benifit of this form is that you can construct more complex forms of
+The benefit of this form is that you can construct more complex forms of
 data structures base on it. For example, to represent a list, we use the 
 following form:
 ```
@@ -34,7 +34,7 @@ following form:
 ```
 The `NIL` here represents an "empty list".
 
-For convinient, the expression above could be written as below as well:
+For convenient, the expression above could be written as below as well:
 ```
 (a b c)
 ```
@@ -53,14 +53,14 @@ the middle of the numbers.
 
 In Lisp (also in Scheme) we use a different order to represent the same
 meaning which is named "prefix notation". In prefix notation, we write
-the operator `+` in the front of the expression instead of writting in the
+the operator `+` in the front of the expression instead of writing in the
 middle with a pair of parenthesis around:
 ```
 (+ 1 2)
 ```
 
-This looks a bit weired for people who never used Lisp before, but sometimes
-we benifits from writting in prefix notation. For example, we want to
+This looks a bit weird for people who never used Lisp before, but sometimes
+we benefit from writing in prefix notation. For example, we want to
 represent the some from 1 to 5, in classic infix notation which has been
 widely used in mathematics, we write `1 + 2 + 3 + 4 + 5`. Looks pretty
 normal. But in prefix notation, we just need to write `(+ 1 2 3 4 5)`.
