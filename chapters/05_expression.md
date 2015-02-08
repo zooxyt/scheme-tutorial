@@ -95,13 +95,13 @@ argument which means the following code:
 is illegal.
 
 While applying on only one number, it evaluates to the negative number of the
-original numebr:
+original number:
 ```
 (- 123) ; -123
 ```
 
 while applying on more than one numbers, it set the first number as the 
-"initial value" of the while process, and substract the initial value by the 
+"initial value" of the while process, and subtracts the initial value by the 
 remained numbers one by one.
 ```
 (- 10 1 2 3) ; 4
