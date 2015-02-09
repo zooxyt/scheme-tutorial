@@ -39,6 +39,7 @@ For convenient, the expression above could be written as below as well:
 (a b c)
 ```
 
+
 Using in Lisp
 -------------
 
@@ -60,7 +61,7 @@ middle with a pair of parenthesis around:
 ```
 
 The `;` in the code means the text starts from ";" to the end of the line
-are "comments". Comments doens't do anything to your program, you just write
+are "comments". Comments does not do anything to your program, you just write
 anything you want in the comments to make you code easy to understand by 
 people.
 
@@ -87,7 +88,7 @@ two. The following expressions are legal in Scheme:
 The "+" function has an initial zero value for represent the sum of 
 all arguments. if no available argument, it evaluates to 0. 
 
-Let's take a look at another procedure "-". "-" function accepts at least one
+Let us take a look at another function "-". "-" function accepts at least one
 argument which means the following code:
 ```
 (-)
@@ -106,4 +107,13 @@ remained numbers one by one.
 ```
 (- 10 1 2 3) ; 4
 ```
+
+
+Procedures
+----------
+
+In mathematics, they have been named function, but in Scheme Programming Language, we should 
+call them "procedures" for the purpose of distiguish it from the terminology "function" 
+because they do different to functions in mathematics. More details will be given in the later
+chapters.
 

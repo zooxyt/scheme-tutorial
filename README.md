@@ -10,6 +10,7 @@ Completed Chapters
 2. Installation
 3. Have a try
 4. Basic Data Types
+5. Expression
 
 
 Suggestions
