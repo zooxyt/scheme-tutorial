@@ -101,7 +101,7 @@ original number:
 (- 123) ; -123
 ```
 
-while applying on more than one numbers, it set the first number as the 
+While applying on more than one numbers, it set the first number as the 
 "initial value" of the while process, and subtracts the initial value by the 
 remained numbers one by one.
 ```

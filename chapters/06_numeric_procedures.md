@@ -25,10 +25,10 @@ try to do the following thing:
 ```
 
 the program will stopped from execution and 
-an runtime error is going to be rised, 
+an runtime error is going to be raised, 
 the content of the error is "division by zero". 
 
-You probably will try if the procedures applys on "float-point numbers", of course:
+You probably will try if the procedures applies on "float-point numbers", of course:
 ```
 (* 1.2 2.0) ; 2.4
 (/ 15.0 3.0) ; 5.0
@@ -46,11 +46,11 @@ Does float-point numbers operate with integer numbers? The answer is yes:
 
 A float-point number multiply by an integer number evaluates to a float-point number
 because the float-point numbers could also represent some integers, roughly speaking,
-the float-point numbers has the abbility of integer numbers. This automatic convertion
+the float-point numbers has the ability of integer numbers. This automatic conversion
 happens as above is called "type promotion"
 
 The result of division 15.0 by 3 evaluates to "5.0" instead of an integer "5", this is 
-because of there is no such an "inverse operation" for type promotuon that will automatically
+because of there is no such an "inverse operation" for type promotion that will automatically
 executed.
 
 
@@ -66,7 +66,7 @@ Rational Numbers
 ----------------
 
 
-Convertion Between Types
+Conversion Between Types
 ------------------------
 
 
