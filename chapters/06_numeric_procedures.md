@@ -65,8 +65,38 @@ There are some divisions work for only integers, called integer division:
 Rational Numbers
 ----------------
 
+Rational numbers are supported by Scheme:
+While dividing applies on integers and could not evaluates to an integer,
+instead of returning an approximative integer which is supported by most
+machine directly, the value returned is a rational numbers
+```
+(/ 4 12) ; 1/3
+```
 
-Conversion Between Types
-------------------------
 
+Exactness
+---------
+
+In the example above, we already know it returns the value 1/3 exactly
+represents the meaning of the result of `(/ 4 12)`, but the 
+rational number type is not directly provided by CPU hardware in most
+machines. Those CPU normally use float-point number like 
+`0.33333333333...`
+to represent this value. But no matter how accurate the number is, it can't
+"precisely" represents as `1/3`. So we normally say values like
+`0.33333333333...` are "inexact", but those values in rational number 
+types (or integer numbers types etc.) like `1/3` or `123` are "exact".
+
+Conversion from exact numbers to inexact numbers are usually easy:
+```
+(exact->inexact (/ 4 12)) ; 0.3333333333333333
+```
+
+But the inverse process isn't that much easy:
+```
+(inexact->exact (exact->inexact (/ 4 12))) ; 6004799503160661/18014398509481984
+```
+
+Because the conversion from exact to inexact loses some information of
+the original value and the lossing is irreversable.
 
